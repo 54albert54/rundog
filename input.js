@@ -47,16 +47,12 @@ export class InputHandler {
             this.touchY=e.changedTouches[0].pageY
            this.touchX=e.changedTouches[0].pageX
       
-          if (this.game.energy>0){
+          
            if  (
-           this.touchX <this.objetos.x-300    &&
-            this.touchX +50 >this.objetos.x -300
-            &&
-           this.objetos.y-40 <this.touchY +50 &&
-            this.objetos.y -40+ this.objetos.height > this.touchY 
+           ""
 
             )
-            this.keys.push('Enter' )}
+            this.keys.push('Enter' )
    
        
            
